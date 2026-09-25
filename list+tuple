@@ -1,0 +1,75 @@
+l=[1,2,3,4,5,6,87,98,65,43,45]
+l.append(67)
+#l.sort()
+#print(l)
+#l.sort(reverse=True)
+#print(l)
+#l.reverse()
+#print(l)
+print(l.index(67))
+print(l.index(45))
+print(l)
+l.insert(3,100)
+print(l)
+m=[1000,500,650]
+l.extend(m)
+print(l)
+
+
+print("   " \
+"" \
+"" \
+"" \
+"" \
+"")
+#a=[1,2,2,2,2,3,3,3,3,67,6,7,6,6,7,6]
+#print(a.count(3))
+#print(a.count(2))
+colors=["violet","banana","apple"]
+new=colors.copy()
+print(new)
+new=[colors.copy(), "kiwi","dragonfruit"]
+print(new)
+k=m+l+colors
+print(k)
+
+x=[1,2,3,4]
+print(type(x))
+print(x[2])
+print(x[3])
+print(x[0])
+#tuple mai add nahi hota list mai hota hai
+# list mai apan variable bh add karte hia
+x=[1,2,3,4,"hello", True ]
+print(x[4])
+print(x)
+a=[1, 2, 3, 4, 5, 6, 7]
+# -7,-6,-5,-4,-3,-2,-1
+print(a)
+print(type(a))
+print(a[-1])
+print(a[-7])# negative index
+print([len(a)-5])#convert positive to negative index
+print(len(a))
+print([len(a)-4])
+print(a[7-2])
+#boolean is true or false
+if True in a:
+    print("yes")
+else:
+    print("nope")
+
+t=(1,2,3,"anushka","banana")
+a=("1,2,nushka,banana")
+c=('''heheh,hahahah,akakak,huhuhu''')   
+print(type(c))
+print(type(t))
+print(type(a))
+b=(9)
+print(type(b))
+b=(9,)
+print(type(b))
+#tuple change nahi hoti it is immutable but list can be mutable
+#tuple use hoti hai when we deliberately not want to change the value like a constant
+k=(1,2,3,4,"anshk","hehehe")
+print(k[2:4])
