@@ -1,0 +1,18 @@
+number=int(input("the number is"))
+if(number%2==0):
+    print("number is even")
+else:
+    print("number is odd")
+#a=input("apna naam bata")
+#print("my name is", a)
+
+#a=input("number one:")
+#b=input("number two:")
+#print(a+b)
+#print(int(a)+int(b))
+
+#a=input("")
+#b=input("")
+a=input()
+b=input()
+print(a,b)
